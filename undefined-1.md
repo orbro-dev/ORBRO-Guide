@@ -1,6 +1,43 @@
 # 릴리즈 노트
 
-## 2.8.0(WIP)
+## 2.9.0(2025.10.17)
+
+#### Overview
+
+ORBRO OS 2.9.0은 SOP(Application) 신설, Object 색상 커스터마이징 기능, Nearby Search 알고리즘 고도화, Scan Insight 인터페이스 개편을 중심으로 업데이트되었습니다.
+
+이번 버전에서는 기존 Dashboard에 종속되어 있던 SOP 기능이 독립 애플리케이션으로 분리되어, 시나리오 기반의 표준 운영 절차(SOP)를 손쉽게 설정하고, 기록 및 보고서 기능을 통해 운영 이력을 효율적으로 관리할 수 있습니다.
+
+또한 Object 카테고리 설정 기능이 확장되어, 사용자가 오브젝트별 색상을 직접 지정할 수 있게 되었으며, 이를 통해 동일한 유형의 객체 간 시각적 구분이 용이해졌습니다. Nearby Search 애플리케이션은 알고리즘 및 UI가 개선되어 BLE Tag 중심의 정밀 탐색 기능을 강화하였고, Scan Insight는 그래프 형태를 Line Graph로 개편하여 가독성을 높였습니다.
+
+
+
+#### New Feature
+
+* SOP 애플리케이션은 기존 Dashboard에 포함되어 있던 SOP 기능을 독립 애플리케이션 형태로 제공하며, 시나리오(구 시퀀스) 생성 시 이동 경로 설정이 제거되고 미리보기 기능이 추가되었습니다. 사용자는 SOP 발생 이력을 발생시간, 이름, 상태, 종료시간, 위치, 담당자 기준으로 확인할 수 있으며, 조회기간, 상태, SOP 종류별 필터를 통해 데이터를 세분화할 수 있습니다. 또한 SOP 기록 조회 시 보고서 다운로드 및 삭제 기능이 제공되고, 설정 메뉴에서는 SOP 이름별 리스트 확인 및 신규 SOP 추가가 가능합니다.
+
+#### User Interface Updates
+
+* Object 색상 변경 기능이 추가되어 사용자가 오브젝트 카테고리 설정에서 색상을 직접 지정할 수 있습니다. 오브젝트 추가 및 상세 팝업 내 색상 설정 항목이 새롭게 제공되며, Tag 오브젝트의 경우 아이콘, 이름, 색상 변경이 가능하고 Device(기본) 카테고리는 수정이 제한됩니다. AI 오브젝트 또한 색상 변경이 가능하여 객체별 시각적 구분이 용이해졌습니다.
+* Nearby Search 애플리케이션은 BLE 중심으로 재구성되어 UWB Tag 단말기가 표시되지 않으며, 리스트는 Device Name, Mode(Default/Nearby Search), Nearby Search Result, Confidence, Timeline 순으로 표시됩니다. 필터 기능이 추가되어 기기 타입(BLE Tag)과 Mode(Default/Nearby Search)별로 조회할 수 있으며, 각 단말기별 체크박스를 통해 모드를 전환할 수 있습니다. Default 모드는 기존 알고리즘을, Nearby Search 모드는 신규 알고리즘을 기반으로 동작합니다.
+* Tag 단말기 상세 보기화면에는 Nearby Search 항목이 새롭게 추가되어 Mode와 Search Result 정보를 확인할 수 있으며, UWB Tag 단말기는 제외됩니다.
+* Scan Insight 애플리케이션은 그래프 형태가 Bar Graph에서 Line Graph로 변경되어 데이터 흐름이 더욱 직관적으로 표시되며, 동일한 데이터 구조를 유지합니다. 이와 함께 TwinTracker Series의 Scan Insight Section 또한 UI가 개편되어 전체적인 그래프 시각화 체계를 통일했습니다.
+
+#### Bug Fix
+
+* Zone 이름이 긴 경우 발생하던 레이아웃 깨짐 현상이 수정되었습니다.
+
+***
+
+## 2.8.1(2025.09.12)
+
+#### New Feature
+
+* TwinTracker Laser 기기가 새롭게 지원됩니다. 이번 업데이트를 통해 사용자는 기존 TwinTracker BLE와 동일한 구조로 Laser 기반의 거리 데이터를 함께 활용할 수 있습니다. 기기 클릭 시 Scan Insight 및 Nearby Search 애플리케이션 항목이 동일하게 제공되며, Device Data 항목이 추가되어 1분 단위의 평균 데이터를 m(미터) 단위로 표시합니다. 수치는 소수점 둘째 자리까지 표기되어 정밀한 거리 측정 및 모니터링이 가능합니다.
+
+***
+
+## 2.8.0(2025.09.05)
 
 #### Overview
 
@@ -36,7 +73,7 @@ UI 개선도 이루어졌습니다. Zone 인터페이스는 단순 카운팅 숫
 
 ***
 
-## 2.7.0(WIP)
+## 2.7.0(2025.08.27)
 
 #### Overview
 
