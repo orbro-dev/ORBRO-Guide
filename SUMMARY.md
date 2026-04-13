@@ -18,6 +18,27 @@
     * [로그아웃](getting-started/first-screen/logout.md)
   * [기본 화면 이동 방법](getting-started/home-navigation.md)
 
+## 운영 설정 <a href="#settings-section" id="settings-section"></a>
+
+* [운영 설정](settings-section/settings/README.md)
+  * [계정 설정](settings-section/settings/account-settings/README.md)
+    * [내 계정](settings-section/settings/account-settings/my-account.md)
+  * [관리자 설정](settings-section/settings/admin-settings/README.md)
+    * [일반](settings-section/settings/admin-settings/general/README.md)
+      * [워크스페이스](settings-section/settings/admin-settings/general/workspace.md)
+      * [인터페이스](settings-section/settings/admin-settings/general/interface.md)
+      * [오브젝트](settings-section/settings/admin-settings/general/object.md)
+    * [사용자](settings-section/settings/admin-settings/users/README.md)
+      * [ORBRO 계정 사용자 등록](settings-section/settings/admin-settings/users/create-orbro.md)
+      * [Local 계정 사용자 등록](settings-section/settings/admin-settings/users/create-local.md)
+      * [그룹 관리](settings-section/settings/admin-settings/users/groups.md)
+    * [알림](settings-section/settings/admin-settings/alarm.md)
+    * [조건](settings-section/settings/admin-settings/filters.md)
+    * [개발자](settings-section/settings/admin-settings/developer.md)
+  * [공간 설정](settings-section/settings/space-settings/README.md)
+    * [건물 관리](settings-section/settings/space-settings/building-management.md)
+    * [공간 관리](settings-section/settings/space-settings/space-management.md)
+
 ## 관리자 <a href="#admin" id="admin"></a>
 
 * [알림 설정](alarm.md)
