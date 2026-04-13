@@ -5,13 +5,8 @@
   * [ORBRO OS 소개](introduction/about-orbro-os.md)
   * [주요 기능 한눈에 보기](introduction/key-feature-overview.md)
   * [용어 설명](introduction/about-keyword.md)
-
-## 시작하기
-
-* [로그인](undefined/undefined/README.md)
-  * [아이디, 비밀번호 로그인](undefined/undefined/undefined.md)
-  * [휴대폰 번호 로그인](undefined/undefined/undefined-1.md)
-  * [이메일 주소 로그인](undefined/undefined/undefined-2.md)
+* [시작하기](undefined/README.md)
+  * [로그인 개요](undefined/undefined.md)
 
 ## 관리자 <a href="#admin" id="admin"></a>
 
