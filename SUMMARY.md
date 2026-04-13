@@ -68,6 +68,13 @@
   * [TwinTracker 관리](device-management/twintracker-management.md)
   * [Camera 관리](device-management/camera-management.md)
   * [Tag 관리](device-management/tag-management.md)
+* [문제 해결](troubleshooting/README.md)
+  * [로그인 문제](troubleshooting/login-issue.md)
+  * [권한 문제](troubleshooting/permission-issue.md)
+  * [장비 연결 문제](troubleshooting/device-connection-issue.md)
+  * [알림/조건 설정 문제](troubleshooting/notification-issue.md)
+  * [자주 묻는 질문](troubleshooting/faq.md)
+  * [문의 방법](troubleshooting/contact.md)
 
 ## 관리자 <a href="#admin" id="admin"></a>
 
