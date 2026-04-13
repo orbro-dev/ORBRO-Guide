@@ -62,6 +62,12 @@
     * [AI RTLS](apps/ai-app/ai-rtls.md)
     * [AI Event](apps/ai-app/ai-event.md)
     * [LPR](apps/ai-app/lpr.md)
+* [장비 관리](device-management/README.md)
+  * [Device Manager 소개](device-management/device-manager-introduction.md)
+  * [기기 상세 화면 이해하기](device-management/device-detail-understanding.md)
+  * [TwinTracker 관리](device-management/twintracker-management.md)
+  * [Camera 관리](device-management/camera-management.md)
+  * [Tag 관리](device-management/tag-management.md)
 
 ## 관리자 <a href="#admin" id="admin"></a>
 
