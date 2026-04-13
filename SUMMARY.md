@@ -1,10 +1,10 @@
 # Table of contents
 
-## 시작하기 전 <a href="#before-start" id="before-start"></a>
+## 시작하기 전 <a href="#before" id="before"></a>
 
 * [ORBRO OS 소개](README.md)
-* [주요 기능 한눈에 보기](before-start/key-feature-overview.md)
-* [용어 설명](before-start/about-keyword.md)
+* [주요 기능 한눈에 보기](before/key-feature-overview.md)
+* [용어 설명](before/about-keyword.md)
 
 ## 업데이트 <a href="#update" id="update"></a>
 
